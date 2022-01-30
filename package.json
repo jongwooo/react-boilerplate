@@ -2,7 +2,7 @@
   "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate setup with webpack and babel config for a React project.",
-  "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/jongwooo/react-boilerplate.git"

@@ -12,5 +12,6 @@
   "bugs": {
     "url": "https://github.com/jongwooo/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/jongwooo/react-boilerplate#readme"
+  "homepage": "https://github.com/jongwooo/react-boilerplate#readme",
+  "packageManager": "yarn@3.1.1"
 }

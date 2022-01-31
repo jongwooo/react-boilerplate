@@ -3741,6 +3741,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mini-css-extract-plugin@npm:^2.5.3":
+  version: 2.5.3
+  resolution: "mini-css-extract-plugin@npm:2.5.3"
+  dependencies:
+    schema-utils: ^4.0.0
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: de53fbded09fd2ae81174b11754bc955fcf0e0a85b2c4df7e179fcc8a81533362498824395d43d50960b0bc93550eb2bd9cd1ded113eaa21bd84ab50ef29e65c
+  languageName: node
+  linkType: hard
+
 "minimalistic-assert@npm:^1.0.0":
   version: 1.0.1
   resolution: "minimalistic-assert@npm:1.0.1"
@@ -4375,6 +4386,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     css-loader: ^6.5.1
+    mini-css-extract-plugin: ^2.5.3
     react: ^17.0.2
     react-dom: ^17.0.2
     sass: ^1.49.0

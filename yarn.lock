@@ -2394,6 +2394,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"compression-webpack-plugin@npm:^9.2.0":
+  version: 9.2.0
+  resolution: "compression-webpack-plugin@npm:9.2.0"
+  dependencies:
+    schema-utils: ^4.0.0
+    serialize-javascript: ^6.0.0
+  peerDependencies:
+    webpack: ^5.1.0
+  checksum: 50ef78d0973f87ed8d7c30fdb31b009d409c288a77ee842d9b3b5b2348048f55148f510d3a0bd30b5c954e6701ed9fc08c3616ce46ad1eec8e0954b336a5f4b9
+  languageName: node
+  linkType: hard
+
 "compression@npm:^1.7.4":
   version: 1.7.4
   resolution: "compression@npm:1.7.4"
@@ -4862,6 +4874,7 @@ __metadata:
     "@babel/preset-react": ^7.16.7
     babel-loader: ^8.2.3
     clean-webpack-plugin: ^4.0.0
+    compression-webpack-plugin: ^9.2.0
     css-loader: ^6.5.1
     csv-loader: ^3.0.3
     html-webpack-plugin: ^5.5.0

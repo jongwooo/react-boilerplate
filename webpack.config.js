@@ -65,17 +65,7 @@ const config = ({ isDev }) => ({
             {
                 test: /\.(js|jsx)$/i,
                 exclude: /node_modules/,
-                loader: 'babel-loader',
-                options: {
-                    presets: [
-                        ['@babel/preset-env', {
-                            targets: {
-                                esmodules: true
-                            }
-                        }],
-                        '@babel/preset-react'
-                    ],
-                }
+                loader: 'babel-loader'
             },
             {
                 test: /\.(sa|sc|c)ss$/i,

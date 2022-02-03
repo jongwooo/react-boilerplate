@@ -39,12 +39,19 @@ const config = ({ isDev }) => ({
             template: path.resolve(__dirname, 'public/index.html'),
             inject: 'body',
             cache: false,
+            minify:
+                isDev
+                    ? false
+                    : {
+                        collapseWhitespace: true,
+                        removeComments: true
+                    }
         }),
-        isDev &&
-        new MiniCssExtractPlugin({
-            linkType: false,
-            filename: '[name].[contenthash].css',
-        })
+        ...(isDev ?
+            [new MiniCssExtractPlugin({
+                linkType: false,
+                filename: '[name].[contenthash].css',
+            })] : [])
     ],
     output: {
         path: path.join(__dirname, 'dist'),
@@ -72,7 +79,6 @@ const config = ({ isDev }) => ({
             },
             {
                 test: /\.(sa|sc|c)ss$/i,
-                exclude: /node_modules/,
                 use: [
                     isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
                     'css-loader',
@@ -80,32 +86,22 @@ const config = ({ isDev }) => ({
                 ],
             },
             {
-                test: /\.(png|jpe?g|gif|webp|ico)$/i,
-                include: path.resolve(__dirname, 'src'),
-                type: 'asset/resource',
-                generator: {
-                    filename: 'images/[name][ext]',
-                },
-            },
-            {
-                test: /\.svg$/i,
-                type: 'asset/inline',
+                test: /\.(png|jpe?g|svg|gif|webp|ico)$/i,
+                loader: 'url-loader',
+                options: {
+                    name: 'images/[[name].[ext]?[hash]',
+                    fallback: 'file-loader',
+                    limit: 10000
+                }
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,
-                include: path.resolve(__dirname, 'src'),
-                type: 'asset/resource',
-                generator: {
-                    filename: 'fonts/[name][ext]',
-                },
-            },
-            {
-                test: /\.(csv|tsv)$/i,
-                use: ['csv-loader'],
-            },
-            {
-                test: /\.xml$/i,
-                use: ['xml-loader'],
+                loader: 'url-loader',
+                options: {
+                    name: 'fonts/[[name].[ext]?[hash]',
+                    fallback: 'file-loader',
+                    limit: 10000
+                }
             },
         ]
     }

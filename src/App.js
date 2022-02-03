@@ -1,4 +1,5 @@
 import React from 'react'
+import { hot } from 'react-hot-loader'
 import logo from './logo.png'
 
 const App = () => {
@@ -10,4 +11,4 @@ const App = () => {
     )
 }
 
-export default App
+export default hot(module)(App)

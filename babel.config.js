@@ -1,13 +1,14 @@
 module.exports = {
-    presets: [
-        ['@babel/preset-env', {
-            targets: {
-                esmodules: true
-            }
-        }],
-        '@babel/preset-react'
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        targets: {
+          esmodules: true,
+        },
+      },
     ],
-    plugins: [
-        'react-hot-loader/babel'
-    ]
-};
+    '@babel/preset-react',
+  ],
+  plugins: ['react-hot-loader/babel'],
+}

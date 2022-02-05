@@ -4809,6 +4809,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "prettier@npm:2.5.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
+  languageName: node
+  linkType: hard
+
 "pretty-error@npm:^4.0.0":
   version: 4.0.0
   resolution: "pretty-error@npm:4.0.0"
@@ -4934,6 +4943,7 @@ __metadata:
     file-loader: ^6.2.0
     html-webpack-plugin: ^5.5.0
     mini-css-extract-plugin: ^2.5.3
+    prettier: ^2.5.1
     react: ^17.0.2
     react-dom: ^17.0.2
     react-hot-loader: ^4.13.0

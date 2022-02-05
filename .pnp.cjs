@@ -45,6 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["file-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:6.2.0"],
             ["html-webpack-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.5.0"],
             ["mini-css-extract-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:2.5.3"],
+            ["prettier", "npm:2.5.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:17.0.2"],
             ["react-hot-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.13.0"],
@@ -6557,6 +6558,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["prettier", [
+        ["npm:2.5.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.5.1-58b195b509-21b9408476.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.5.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["pretty-error", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/pretty-error-npm-4.0.0-7cca1fe4ad-a5b9137365.zip/node_modules/pretty-error/",
@@ -6727,6 +6737,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["file-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:6.2.0"],
             ["html-webpack-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.5.0"],
             ["mini-css-extract-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:2.5.3"],
+            ["prettier", "npm:2.5.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:17.0.2"],
             ["react-hot-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.13.0"],

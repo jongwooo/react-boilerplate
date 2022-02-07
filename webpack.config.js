@@ -7,10 +7,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const config = ({ isDev }) => ({
   mode: isDev ? 'development' : 'production',
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
   },
   entry: {
-    main: './src/index.js',
+    main: './src/index.tsx',
   },
   devtool: `${isDev ? 'inline-source-map' : 'source-map'}`,
   devServer: {
@@ -68,6 +68,17 @@ const config = ({ isDev }) => ({
         test: /\.(js|jsx)$/i,
         exclude: /node_modules/,
         loader: 'babel-loader',
+      },
+      {
+        test: /\.(ts|tsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'ts-loader',
+          options: {
+            configFile: path.resolve(__dirname, 'tsconfig.json'),
+            transpileOnly: true,
+          },
+        },
       },
       {
         test: /\.(sa|sc|c)ss$/i,

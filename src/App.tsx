@@ -1,12 +1,13 @@
 import React from 'react'
 import { hot } from 'react-hot-loader'
+import './App.css'
 import logo from './logo.png'
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="App">
       <h1>Hello, World!</h1>
-      <img src={logo} alt="logo" />
+      <img className="App-logo" src={logo} alt="logo" />
     </div>
   )
 }

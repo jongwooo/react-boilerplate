@@ -47,13 +47,14 @@ const config = ({ isDev }) => ({
           },
     }),
     ...(isDev
-      ? [
+      ? []
+      : [
           new MiniCssExtractPlugin({
             linkType: false,
             filename: '[name].[contenthash].css',
+            chunkFilename: '[id].[contenthash].css',
           }),
-        ]
-      : []),
+        ]),
   ],
   output: {
     path: path.join(__dirname, 'dist'),

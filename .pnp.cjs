@@ -38,6 +38,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.16.12"],
             ["@babel/preset-env", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:7.16.11"],
             ["@babel/preset-react", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:7.16.7"],
+            ["@types/react", "npm:17.0.39"],
+            ["@types/react-dom", "npm:17.0.11"],
             ["babel-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:8.2.3"],
             ["clean-webpack-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.0.0"],
             ["compression-webpack-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:9.2.0"],
@@ -2543,6 +2545,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/prop-types", [
+        ["npm:15.7.4", {
+          "packageLocation": "./.yarn/cache/@types-prop-types-npm-15.7.4-592896a9fe-ef6e1899e5.zip/node_modules/@types/prop-types/",
+          "packageDependencies": [
+            ["@types/prop-types", "npm:15.7.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/qs", [
         ["npm:6.9.7", {
           "packageLocation": "./.yarn/cache/@types-qs-npm-6.9.7-4a3e6ca0d0-7fd6f9c250.zip/node_modules/@types/qs/",
@@ -2561,11 +2572,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/react", [
+        ["npm:17.0.39", {
+          "packageLocation": "./.yarn/cache/@types-react-npm-17.0.39-b4ac1f7bfe-bf04d3c289.zip/node_modules/@types/react/",
+          "packageDependencies": [
+            ["@types/react", "npm:17.0.39"],
+            ["@types/prop-types", "npm:15.7.4"],
+            ["@types/scheduler", "npm:0.16.2"],
+            ["csstype", "npm:3.0.10"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/react-dom", [
+        ["npm:17.0.11", {
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-17.0.11-fc2e584a96-4d5730dffb.zip/node_modules/@types/react-dom/",
+          "packageDependencies": [
+            ["@types/react-dom", "npm:17.0.11"],
+            ["@types/react", "npm:17.0.39"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/retry", [
         ["npm:0.12.1", {
           "packageLocation": "./.yarn/cache/@types-retry-npm-0.12.1-05f3303aac-5f46b25560.zip/node_modules/@types/retry/",
           "packageDependencies": [
             ["@types/retry", "npm:0.12.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/scheduler", [
+        ["npm:0.16.2", {
+          "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-b6b4dcfeae.zip/node_modules/@types/scheduler/",
+          "packageDependencies": [
+            ["@types/scheduler", "npm:0.16.2"]
           ],
           "linkType": "HARD",
         }]
@@ -3900,6 +3942,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cssesc-npm-3.0.0-15ec56f86f-f8c4ababff.zip/node_modules/cssesc/",
           "packageDependencies": [
             ["cssesc", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["csstype", [
+        ["npm:3.0.10", {
+          "packageLocation": "./.yarn/cache/csstype-npm-3.0.10-e26ef49bb2-20a8fa324f.zip/node_modules/csstype/",
+          "packageDependencies": [
+            ["csstype", "npm:3.0.10"]
           ],
           "linkType": "HARD",
         }]
@@ -6764,6 +6815,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.16.12"],
             ["@babel/preset-env", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:7.16.11"],
             ["@babel/preset-react", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:7.16.7"],
+            ["@types/react", "npm:17.0.39"],
+            ["@types/react-dom", "npm:17.0.11"],
             ["babel-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:8.2.3"],
             ["clean-webpack-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.0.0"],
             ["compression-webpack-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:9.2.0"],
@@ -6800,7 +6853,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/react-dom-virtual-8169787444/0/cache/react-dom-npm-17.0.2-f551215af1-1c1eaa3bca.zip/node_modules/react-dom/",
           "packageDependencies": [
             ["react-dom", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:17.0.2"],
-            ["@types/react", null],
+            ["@types/react", "npm:17.0.39"],
             ["loose-envify", "npm:1.4.0"],
             ["object-assign", "npm:4.1.1"],
             ["react", "npm:17.0.2"],
@@ -6825,8 +6878,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/react-hot-loader-virtual-16ddf9fad1/0/cache/react-hot-loader-npm-4.13.0-ec29a44932-effdbf4644.zip/node_modules/react-hot-loader/",
           "packageDependencies": [
             ["react-hot-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.13.0"],
-            ["@types/react", null],
-            ["@types/react-dom", null],
+            ["@types/react", "npm:17.0.39"],
+            ["@types/react-dom", "npm:17.0.11"],
             ["fast-levenshtein", "npm:2.0.6"],
             ["global", "npm:4.4.0"],
             ["hoist-non-react-statics", "npm:3.3.2"],

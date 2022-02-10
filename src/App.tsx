@@ -3,7 +3,7 @@ import { hot } from 'react-hot-loader'
 import './App.css'
 import logo from './logo.png'
 
-const App: React.FC = () => {
+const App = (): JSX.Element => {
   return (
     <div className="App">
       <h1>Hello, World!</h1>

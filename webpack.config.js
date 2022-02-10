@@ -86,21 +86,21 @@ const config = ({ isDev }) => ({
         use: [isDev ? 'style-loader' : MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
-        test: /\.(png|jpe?g|svg|gif|webp|ico)$/i,
-        loader: 'url-loader',
-        options: {
-          name: 'images/[[name].[ext]?[hash]',
-          fallback: 'file-loader',
-          limit: 10000,
+        test: /\.(png|jpe?g|gif|webp)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[name][ext]',
         },
       },
       {
+        test: /\.svg$/i,
+        type: 'asset/inline',
+      },
+      {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        loader: 'url-loader',
-        options: {
-          name: 'fonts/[[name].[ext]?[hash]',
-          fallback: 'file-loader',
-          limit: 10000,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext]',
         },
       },
     ],

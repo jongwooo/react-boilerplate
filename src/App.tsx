@@ -1,7 +1,7 @@
 import React from 'react'
 import { hot } from 'react-hot-loader'
 import './App.css'
-import logo from './logo.png'
+import logo from './logo.svg'
 
 const App = (): JSX.Element => {
   return (

@@ -6,8 +6,8 @@
   "scripts": {
     "start": "webpack serve --mode=development",
     "build": "webpack --mode=production",
-    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md,yml}\"",
-    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,yml}\""
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md,yml,html}\"",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,yml,html}\""
   },
   "repository": {
     "type": "git",

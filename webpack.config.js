@@ -1,4 +1,4 @@
-const path = require('path')
+const { join } = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -37,7 +37,7 @@ const config = ({ isDev }) => ({
       test: /\.js$/,
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'public/index.html'),
+      template: join(__dirname, 'public/index.html'),
       inject: 'body',
       cache: false,
       minify: isDev
@@ -58,7 +58,7 @@ const config = ({ isDev }) => ({
         ]),
   ],
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: join(__dirname, 'dist'),
     filename: 'bundle.[name].[chunkhash].js',
     chunkFilename: 'chunk.[name].[chunkhash].js',
     publicPath: '/',
@@ -77,7 +77,7 @@ const config = ({ isDev }) => ({
         use: {
           loader: 'ts-loader',
           options: {
-            configFile: path.resolve(__dirname, 'tsconfig.json'),
+            configFile: join(__dirname, 'tsconfig.json'),
             transpileOnly: true,
           },
         },

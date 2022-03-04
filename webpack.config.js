@@ -16,7 +16,6 @@ const config = ({ isDev }) => ({
   devServer: {
     port: 3000,
     historyApiFallback: true,
-    https: true,
     open: true,
   },
   optimization: {

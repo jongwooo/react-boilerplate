@@ -1904,6 +1904,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.0.6":
+  version: 18.0.6
+  resolution: "@types/node@npm:18.0.6"
+  checksum: 780f8885a6b6eb12f4c0246617747fdc37a451931b3c01ce8148d356c0903b705dcb16cc6a914de63d48b0dc1b002c7a3dfae681f580e1761aa551d3cd996813
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.4
   resolution: "@types/prop-types@npm:15.7.4"
@@ -5320,6 +5327,7 @@ __metadata:
     "@babel/core": ^7.18.9
     "@babel/preset-env": ^7.18.9
     "@babel/preset-react": ^7.18.6
+    "@types/node": ^18.0.6
     "@types/react": ^18.0.15
     "@types/react-dom": ^18.0.6
     babel-loader: ^8.2.5

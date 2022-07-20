@@ -5264,36 +5264,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-boilerplate@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-boilerplate@workspace:."
-  dependencies:
-    "@babel/core": ^7.18.9
-    "@babel/preset-env": ^7.18.9
-    "@babel/preset-react": ^7.18.6
-    "@types/react": ^18.0.15
-    "@types/react-dom": ^18.0.6
-    babel-loader: ^8.2.5
-    clean-webpack-plugin: ^4.0.0
-    compression-webpack-plugin: ^10.0.0
-    css-loader: ^6.7.1
-    html-webpack-plugin: ^5.5.0
-    mini-css-extract-plugin: ^2.6.1
-    prettier: ^2.7.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-hot-loader: ^4.13.0
-    sass: ^1.53.0
-    sass-loader: ^13.0.2
-    style-loader: ^3.3.1
-    ts-loader: ^9.3.1
-    typescript: ^4.7.4
-    webpack: ^5.73.0
-    webpack-cli: ^4.10.0
-    webpack-dev-server: ^4.9.3
-  languageName: unknown
-  linkType: soft
-
 "react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
@@ -5342,6 +5312,36 @@ __metadata:
   checksum: a904b0fc0a8eeb15a148c9feb7bc17cec7ef96e71188280061fc340043fd6d8ee3ff233381f0e8f95c1cf926210b2c4a31f38182c8f35ac55057e453d6df204f
   languageName: node
   linkType: hard
+
+"react-webpack-babel-boilerplate@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-webpack-babel-boilerplate@workspace:."
+  dependencies:
+    "@babel/core": ^7.18.9
+    "@babel/preset-env": ^7.18.9
+    "@babel/preset-react": ^7.18.6
+    "@types/react": ^18.0.15
+    "@types/react-dom": ^18.0.6
+    babel-loader: ^8.2.5
+    clean-webpack-plugin: ^4.0.0
+    compression-webpack-plugin: ^10.0.0
+    css-loader: ^6.7.1
+    html-webpack-plugin: ^5.5.0
+    mini-css-extract-plugin: ^2.6.1
+    prettier: ^2.7.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-hot-loader: ^4.13.0
+    sass: ^1.53.0
+    sass-loader: ^13.0.2
+    style-loader: ^3.3.1
+    ts-loader: ^9.3.1
+    typescript: ^4.7.4
+    webpack: ^5.73.0
+    webpack-cli: ^4.10.0
+    webpack-dev-server: ^4.9.3
+  languageName: unknown
+  linkType: soft
 
 "react@npm:^18.2.0":
   version: 18.2.0

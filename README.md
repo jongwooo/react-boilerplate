@@ -1,4 +1,4 @@
-# React boilerplate using Webpack
+# React boilerplate using webpack
 
 This project was NOT bootstrapped with [create-react-app](https://github.com/facebook/create-react-app).
 

@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:18.2.0"],\
             ["react-hot-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:4.13.0"],\
-            ["sass", "npm:1.54.4"],\
+            ["sass", "npm:1.54.5"],\
             ["sass-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:13.0.2"],\
             ["style-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:3.3.1"],\
             ["ts-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:9.3.1"],\
@@ -7103,7 +7103,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:18.2.0"],\
             ["react-hot-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:4.13.0"],\
-            ["sass", "npm:1.54.4"],\
+            ["sass", "npm:1.54.5"],\
             ["sass-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:13.0.2"],\
             ["style-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:3.3.1"],\
             ["ts-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:9.3.1"],\
@@ -7401,10 +7401,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sass", [\
-        ["npm:1.54.4", {\
-          "packageLocation": "./.yarn/cache/sass-npm-1.54.4-a1aa26a8a6-bb6aead097.zip/node_modules/sass/",\
+        ["npm:1.54.5", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.54.5-10d3626035-ba7a65aa75.zip/node_modules/sass/",\
           "packageDependencies": [\
-            ["sass", "npm:1.54.4"],\
+            ["sass", "npm:1.54.5"],\
             ["chokidar", "npm:3.5.3"],\
             ["immutable", "npm:4.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
@@ -7433,7 +7433,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["klona", "npm:2.0.5"],\
             ["neo-async", "npm:2.6.2"],\
             ["node-sass", null],\
-            ["sass", "npm:1.54.4"],\
+            ["sass", "npm:1.54.5"],\
             ["sass-embedded", null],\
             ["webpack", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:5.74.0"]\
           ],\

@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.19.0"],\
             ["@babel/preset-env", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:7.19.0"],\
             ["@babel/preset-react", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:7.18.6"],\
-            ["@types/node", "npm:18.7.15"],\
+            ["@types/node", "npm:18.7.16"],\
             ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["babel-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:8.2.5"],\
@@ -3036,10 +3036,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.7.15", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.7.15-3b77ff6bd6-1435fc7fe4.zip/node_modules/@types/node/",\
+        ["npm:18.7.16", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.7.16-f7271d701b-01a3d35c76.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.7.15"]\
+            ["@types/node", "npm:18.7.16"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7205,7 +7205,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.19.0"],\
             ["@babel/preset-env", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:7.19.0"],\
             ["@babel/preset-react", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:7.18.6"],\
-            ["@types/node", "npm:18.7.15"],\
+            ["@types/node", "npm:18.7.16"],\
             ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["babel-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:8.2.5"],\

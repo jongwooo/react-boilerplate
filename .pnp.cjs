@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:7.19.0"],\
             ["@babel/preset-react", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:7.18.6"],\
             ["@types/node", "npm:18.7.16"],\
-            ["@types/react", "npm:18.0.18"],\
+            ["@types/react", "npm:18.0.19"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["babel-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:8.2.5"],\
             ["clean-webpack-plugin", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:4.0.0"],\
@@ -3082,10 +3082,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.0.18", {\
-          "packageLocation": "./.yarn/cache/@types-react-npm-18.0.18-7a5d9ad98c-6d72d35ab3.zip/node_modules/@types/react/",\
+        ["npm:18.0.19", {\
+          "packageLocation": "./.yarn/cache/@types-react-npm-18.0.19-8b04777537-7dc048f9a6.zip/node_modules/@types/react/",\
           "packageDependencies": [\
-            ["@types/react", "npm:18.0.18"],\
+            ["@types/react", "npm:18.0.19"],\
             ["@types/prop-types", "npm:15.7.4"],\
             ["@types/scheduler", "npm:0.16.2"],\
             ["csstype", "npm:3.0.10"]\
@@ -7133,7 +7133,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/react-dom-virtual-5f7652030b/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
             ["react-dom", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:18.2.0"],\
-            ["@types/react", "npm:18.0.18"],\
+            ["@types/react", "npm:18.0.19"],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.0"]\
@@ -7157,7 +7157,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/react-hot-loader-virtual-a1dd77987f/0/cache/react-hot-loader-npm-4.13.0-ec29a44932-effdbf4644.zip/node_modules/react-hot-loader/",\
           "packageDependencies": [\
             ["react-hot-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:4.13.0"],\
-            ["@types/react", "npm:18.0.18"],\
+            ["@types/react", "npm:18.0.19"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["fast-levenshtein", "npm:2.0.6"],\
             ["global", "npm:4.4.0"],\
@@ -7206,7 +7206,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:7.19.0"],\
             ["@babel/preset-react", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:7.18.6"],\
             ["@types/node", "npm:18.7.16"],\
-            ["@types/react", "npm:18.0.18"],\
+            ["@types/react", "npm:18.0.19"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["babel-loader", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:8.2.5"],\
             ["clean-webpack-plugin", "virtual:90fb8da91483caa0baae52a91fe326f315e4ac5e9afdf432570f6f685a0466e5f6d6b52917d94721037164e94b192b79fd2cb9b4d742c15d95f63b3bff504426#npm:4.0.0"],\

@@ -19,7 +19,7 @@
     "url": "https://github.com/jongwooo/react-webpack-babel-boilerplate/issues"
   },
   "homepage": "https://github.com/jongwooo/react-webpack-babel-boilerplate#readme",
-  "packageManager": "yarn@3.2.4",
+  "packageManager": "yarn@3.3.0",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
